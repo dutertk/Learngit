@@ -10,3 +10,6 @@ git reset --hard 版本id的前几位
 先找到每一次命令
 git reflog
 再根据id找回。
+5、撤销工作区的修改
+git checkout --filename
+注意 如果没有--则是切换到另外一个分支
